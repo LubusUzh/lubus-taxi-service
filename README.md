@@ -31,7 +31,7 @@ This is a taxi service web application made on java. You can add a car, driver, 
 
 **Controller** - layer, that works with clients requests.
 
-### The Taxi-service project used next technologies:
+### Technologies:
 Java 17
 
 Apache Maven 3.8.0
