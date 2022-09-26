@@ -1,5 +1,8 @@
 # Taxi-service project
 ## Description
+### A few words about this project:
+This is a taxi service web application made on java. You can add a car, driver, manufacturer, also you can register a new driver and chose car for this driver.   
+
 ### Here are a few features of the Taxi-service project:
 *Register a driver in the database*
 
@@ -19,7 +22,7 @@
 
 *Remove manufacturer from the database*
 
-### Project structure
+### Project structure:
 **This Taxi-service project based on an N-Tier Architecture:**
 
 **DAO** - layer, that works with the DB.
@@ -29,15 +32,15 @@
 **Controller** - layer, that works with clients requests.
 
 ### The Taxi-service project used next technologies:
-**Java 17**
+Java 17
 
-**Apache Maven 3.8.0**
+Apache Maven 3.8.0
 
-**Apache Tomcat 9.0.50**
+Apache Tomcat 9.0.50
 
-**MySQL 8.0.30**
+MySQL 8.0.30
 
-**Java Servlet API**
+Java Servlet API
 
 ### To run the Taxi-service project you need:
 1. Make a fork of this project to your repository.
@@ -49,7 +52,7 @@
     private static final String PASSWORD = "Write your password";
     private static final String JDBC_DRIVER = "Write path to your JDBC driver";
 ```
-4. Create your database from the init_db.sql.
+4. Create your database using init_db.sql.
 5. Install Tomcat 9.0.50.
 6. Configure Tomcat Server.
 7. Run your code.
